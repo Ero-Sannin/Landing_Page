@@ -1,1 +1,1 @@
-# Landing_Page
+A demo landing page from the odin project foundations curriculum.
