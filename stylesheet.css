@@ -72,7 +72,7 @@ p {
     padding: 0px;
 }
 
-.sign-up {
+.sign-in {
     color: #e5e7eb;
     margin-top: 8px;
     width: 100px;
@@ -93,7 +93,7 @@ p {
 }
 
 .cat {
-    border: 5px solid #e5e7eb;
+    border: 5px solid rgb(59, 43, 197);
     width: 400px;
     height: 400px;
     margin-bottom: 20px;
@@ -129,6 +129,7 @@ p {
 }
 .description{
     width:235px;
+    color:#3882f6;
 }
 .quotes{
     background-color: #e5e7eb;
@@ -138,13 +139,34 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    gap:8px;
+    padding-top:80px;
+    padding-bottom:80px;
 }
 .quote{
-    padding-top:30px;
     font-style:italic;
     font-size:36px;
     color:#1f2937;
 }
 .quote-author{
-
+    align-self: last baseline;
+    font-weight:bold;
+    font-size:20px;
+}
+.final-sign-up{
+    margin-top:60px;
+    padding-top:40px;
+    padding-bottom:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #3882f6;
+    margin-left: 120px;
+    margin-right:120px;
+    border:1px solid white;
+}
+.call-to-action{
+    display:flex;
+    flex-direction: column;
 }
