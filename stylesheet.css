@@ -155,10 +155,13 @@ p {
 }
 .final-sign-up{
     margin-top:60px;
+    margin-bottom:60px;
     padding-top:40px;
     padding-bottom:40px;
+    padding-left:80px;
+    padding-right:80px;
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     background-color: #3882f6;
@@ -169,4 +172,35 @@ p {
 .call-to-action{
     display:flex;
     flex-direction: column;
+}
+.first-sign-in{
+    color: #e5e7eb;
+    font-weight: bold;
+    margin-top: 8px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #3882f6;
+}
+.span1{
+    color:#e5e7eb;
+    font-size:20px;
+}
+.span2{
+    color:#e5e7eb;
+}
+.footer{
+    background-color: #1f2937;
+    color:#e5e7eb;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:10px;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+.right-side{
+    gap:20px;
 }
